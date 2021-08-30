@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Theatre.Gateway.Services;
 
 namespace Theatre.Gateway
 {
@@ -25,6 +26,8 @@ namespace Theatre.Gateway
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddHttpClient<IMovieCatalogueService, MovieCatalogueService>(c => c.BaseAddress = new Uri("http://localhost:1827"));
+            services.AddHttpClient<IShoppingCartService, ShoppingCartService>(c => c.BaseAddress = new Uri("http://localhost:34716"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
