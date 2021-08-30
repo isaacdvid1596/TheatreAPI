@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "Theatre.PaymentSystem": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

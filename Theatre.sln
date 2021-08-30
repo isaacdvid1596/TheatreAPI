@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.MovieCatalogue", "Theatre.MovieCatalogue\Theatre.MovieCatalogue.csproj", "{B415A7F1-C377-4836-A3C2-9B08653A20D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.CafeteriaCatalogue", "Theatre.CafeteriaCatalogue\Theatre.CafeteriaCatalogue.csproj", "{2E48D994-C4A1-488D-B2B3-008AA2CD3707}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.PaymentSystem", "Theatre.PaymentSystem\Theatre.PaymentSystem.csproj", "{8FEB5505-B26F-4EC5-87FD-5B9AB6411EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.ShoppingCart", "Theatre.ShoppingCart\Theatre.ShoppingCart.csproj", "{2BC895D2-DC4A-4547-AFDF-1CEEF52ADF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theatre.Gateway", "Theatre.Gateway\Theatre.Gateway.csproj", "{9CB0CE8D-4FAA-45AB-A749-37D410EE729E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B415A7F1-C377-4836-A3C2-9B08653A20D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B415A7F1-C377-4836-A3C2-9B08653A20D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B415A7F1-C377-4836-A3C2-9B08653A20D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B415A7F1-C377-4836-A3C2-9B08653A20D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E48D994-C4A1-488D-B2B3-008AA2CD3707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E48D994-C4A1-488D-B2B3-008AA2CD3707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E48D994-C4A1-488D-B2B3-008AA2CD3707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E48D994-C4A1-488D-B2B3-008AA2CD3707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FEB5505-B26F-4EC5-87FD-5B9AB6411EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FEB5505-B26F-4EC5-87FD-5B9AB6411EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FEB5505-B26F-4EC5-87FD-5B9AB6411EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FEB5505-B26F-4EC5-87FD-5B9AB6411EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC895D2-DC4A-4547-AFDF-1CEEF52ADF41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC895D2-DC4A-4547-AFDF-1CEEF52ADF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC895D2-DC4A-4547-AFDF-1CEEF52ADF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC895D2-DC4A-4547-AFDF-1CEEF52ADF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB0CE8D-4FAA-45AB-A749-37D410EE729E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB0CE8D-4FAA-45AB-A749-37D410EE729E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB0CE8D-4FAA-45AB-A749-37D410EE729E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB0CE8D-4FAA-45AB-A749-37D410EE729E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D0F48E5-3029-448E-B1A1-B4E101F942E6}
+	EndGlobalSection
+EndGlobal
